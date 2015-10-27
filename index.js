@@ -6,7 +6,7 @@ var pattern = function(file) {
 
 var framework = function(files) {
   files.unshift(pattern(path.join(__dirname, 'adapter.js')));
-  files.unshift(pattern(path.resolve(require.resolve('assertive-chai'), '../assertive-chai.js')));
+  files.unshift(pattern(path.resolve(require.resolve('assertive-chai'), '../dist/assertive-chai.js')));
 };
 
 framework.$inject = ['config.files'];
