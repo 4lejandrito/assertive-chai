@@ -1,0 +1,32 @@
+{
+  "name": "karma-assertive-chai",
+  "description": "Assertive Chai for Karma",
+  "keywords": [
+    "karma",
+    "karma-plugin",
+    "assertive-chai",
+    "mocha",
+    "should"
+  ],
+  "version": "1.0.0",
+  "author": "Alejandro Tardin <alejandro@tardin.com>",
+  "contributors": [
+    {
+      "name": "Alejandro Tardin",
+      "url": "https://github.com/4lejandrito"
+    }
+  ],
+  "main": "./index.js",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/4lejandrito/karma-assertive-chai.git"
+  },
+  "bugs": {
+    "url": "https://github.com/4lejandrito/karma-assertive-chai/issues"
+  },
+  "peerDependencies": {
+    "assertive-chai": "*",
+    "karma": ">=0.10.9"
+  }
+}
