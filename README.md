@@ -1,9 +1,11 @@
-karma-assertive-chai
+karma-chai-ie8
 ==========
 
-[Assertive Chai](https://github.com/jokeyrhyme/assertive-chai.js) for [Karma](http://karma-runner.github.io)
+[Chai](https://github.com/chaijs/chai) for [Karma](http://karma-runner.github.io)
+with partial support for IE8 (assert interface) using
+[Assertive Chai](https://github.com/jokeyrhyme/assertive-chai.js).
 
-[![NPM version](https://badge.fury.io/js/karma-assertive-chai.png)](http://badge.fury.io/js/karma-assertive-chai)
+[![NPM version](https://badge.fury.io/js/karma-chai-ie8.png)](http://badge.fury.io/js/karma-chai-ie8)
 
 (based on https://github.com/xdissent/karma-chai)
 
@@ -13,23 +15,23 @@ Installation
 Install the plugin from npm:
 
 ```sh
-$ npm install karma-assertive-chai --save-dev
+$ npm install karma-chai-ie8 --save-dev
 ```
 
 Or from Github:
 
 ```sh
-$ npm install 'git+https://github.com/4lejandrito/karma-assertive-chai.git' --save-dev
+$ npm install 'git+https://github.com/4lejandrito/karma-chai-ie8.git' --save-dev
 ```
 
-Add `assertive-chai` to the `frameworks` key in your Karma configuration:
+Add `chai-ie8` to the `frameworks` key in your Karma configuration:
 
 ```coffee
 module.exports = (config) ->
   config.set
 
     # frameworks to use
-    frameworks: ['mocha', 'assertive-chai']
+    frameworks: ['mocha', 'chai-ie8']
 
     # ...
 ```

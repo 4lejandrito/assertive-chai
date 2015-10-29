@@ -14,4 +14,4 @@ var framework = function(files, browsers) {
 };
 
 framework.$inject = ['config.files', 'config.browsers'];
-module.exports = {'framework:assertive-chai': ['factory', framework]};
+module.exports = {'framework:chai-ie8': ['factory', framework]};

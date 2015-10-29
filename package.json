@@ -1,6 +1,6 @@
 {
-  "name": "karma-assertive-chai",
-  "description": "Assertive Chai for Karma",
+  "name": "karma-chai-ie8",
+  "description": "Chai for Karma with support for ie8 (only expect) through assertive-chai",
   "keywords": [
     "karma",
     "karma-plugin",
@@ -9,7 +9,7 @@
     "mocha",
     "should"
   ],
-  "version": "1.0.1",
+  "version": "1.0.3",
   "author": "Alejandro Tardin <alejandro@tardin.com>",
   "contributors": [
     {
@@ -21,10 +21,10 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/4lejandrito/karma-assertive-chai.git"
+    "url": "https://github.com/4lejandrito/karma-chai-ie8.git"
   },
   "bugs": {
-    "url": "https://github.com/4lejandrito/karma-assertive-chai/issues"
+    "url": "https://github.com/4lejandrito/karma-chai-ie8/issues"
   },
   "peerDependencies": {
     "assertive-chai": "*",
