@@ -1,3 +1,7 @@
+var should;
+
 (function(window) {
-  window.assert = window.chai.assert;
+  if (window.chai.should) window.should = window.chai.should();
+  if (window.chai.expect) window.expect = window.chai.expect;
+  if (window.chai.assert) window.assert = window.chai.assert;
 })(window);

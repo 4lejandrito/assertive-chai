@@ -5,6 +5,7 @@
     "karma",
     "karma-plugin",
     "assertive-chai",
+    "chai",
     "mocha",
     "should"
   ],
@@ -27,6 +28,7 @@
   },
   "peerDependencies": {
     "assertive-chai": "*",
+    "chai": "*",
     "karma": ">=0.10.9"
   }
 }
